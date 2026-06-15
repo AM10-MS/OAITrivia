@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Singapore 100 Office Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell" aria-labelledby="game-title">
+      <section class="signal-panel" aria-label="Singapore AI trivia signal board">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">AI-hosted live room</p>
+            <h1 id="game-title">Singapore 100 Office Trivia</h1>
+          </div>
+          <button class="icon-button" id="refresh-button" type="button" aria-label="Refresh room" title="Refresh room">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 12a8 8 0 1 1-2.34-5.66L20 8"></path>
+              <path d="M20 4v4h-4"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="ai-visual" aria-label="AI themed Singapore trivia display">
+          <div class="neural-map">
+            <span class="node node-a"></span>
+            <span class="node node-b"></span>
+            <span class="node node-c"></span>
+            <span class="node node-d"></span>
+            <span class="node node-e"></span>
+            <span class="node node-f"></span>
+            <span class="link link-ab"></span>
+            <span class="link link-bc"></span>
+            <span class="link link-cd"></span>
+            <span class="link link-de"></span>
+            <span class="link link-ef"></span>
+            <span class="scan-line"></span>
+            <div class="core-readout">
+              <span>SG-OFFICE-MODEL</span>
+              <strong id="room-status">Lobby waiting</strong>
+              <small id="room-subtitle">Host unlocks with OAI123456, then everyone gets 5 minutes.</small>
+            </div>
+          </div>
+
+          <div class="system-grid">
+            <div>
+              <span>Timer</span>
+              <strong id="timer-readout">05:00</strong>
+            </div>
+            <div>
+              <span>Players</span>
+              <strong id="participant-count">0</strong>
+            </div>
+            <div>
+              <span>Responses</span>
+              <strong id="response-count">0</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkpoint-grid" id="checkpoint-grid" aria-label="Prompt checkpoints"></div>
+      </section>
+
+      <section class="control-panel" aria-label="Trivia room controls">
+        <section class="join-card" aria-labelledby="join-title">
+          <div>
+            <p class="category">Participant check-in</p>
+            <h2 id="join-title">Join from your phone</h2>
+          </div>
+          <label for="player-name">Name</label>
+          <div class="join-row">
+            <input id="player-name" type="text" maxlength="24" autocomplete="nickname" placeholder="Type your name">
+            <button class="secondary-button" id="join-button" type="button">Join</button>
+          </div>
+          <div class="participant-badge" id="player-badge">Waiting for name</div>
+        </section>
+
+        <section class="host-card" aria-labelledby="host-title">
+          <div>
+            <p class="category">Host control</p>
+            <h2 id="host-title">Start the 5-minute room</h2>
+          </div>
+          <label for="host-code">Host code</label>
+          <div class="join-row">
+            <input id="host-code" type="password" maxlength="16" autocomplete="off" placeholder="Enter host code">
+            <button class="primary-button" id="start-button" type="button">Start</button>
+          </div>
+          <div class="host-actions">
+            <button class="secondary-button reset-button" id="reset-button" type="button">Reset Room</button>
+            <button class="secondary-button demo-button" id="demo-button" type="button">Demo Mode</button>
+          </div>
+        </section>
+
+        <div class="room-steps" aria-label="Live room flow">
+          <div class="step active" id="step-join">
+            <span>01</span>
+            <strong>Everyone joins</strong>
+          </div>
+          <div class="step" id="step-start">
+            <span>02</span>
+            <strong>Host starts</strong>
+          </div>
+          <div class="step" id="step-answer">
+            <span>03</span>
+            <strong>5 min answer run</strong>
+          </div>
+        </div>
+
+        <div class="progress-wrap">
+          <span id="round-label">Room waiting</span>
+          <div class="progress-bar" aria-label="Time progress"><span id="progress-bar"></span></div>
+        </div>
+
+        <article class="question-card">
+          <p class="category" id="category">Standby</p>
+          <h2 id="question">Join first. The questions unlock when the host starts.</h2>
+          <div class="answers" id="answers"></div>
+          <div class="feedback empty" id="feedback" aria-live="polite">Leaderboard stays hidden until the game ends.</div>
+        </article>
+
+        <section class="live-panel" aria-labelledby="live-title">
+          <div>
+            <p class="category">Live room pulse</p>
+            <h2 id="live-title">Answer progress</h2>
+          </div>
+          <div class="pulse-grid" id="pulse-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
