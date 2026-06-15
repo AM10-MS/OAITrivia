@@ -3,7 +3,7 @@ const ROOM_KEY = "singapore-100-office-trivia-room";
 const QUESTION_COUNT = 15;
 const DURATION_MS = 5 * 60 * 1000;
 const PARTICIPANT_STALE_MS = 10 * 60 * 1000;
-const CORRECT_ANSWERS = Array.from({ length: QUESTION_COUNT }, () => 0);
+const CORRECT_ANSWERS = [2, 1, 3, 2, 1, 0, 3, 2, 1, 3, 2, 1, 3, 0, 2];
 
 function makeEmptyRoom() {
   return {
@@ -27,15 +27,23 @@ function setMemoryRoom(room) {
   globalThis.__singapore100TriviaRoom = room;
 }
 
+function redisRestUrl() {
+  return process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || "";
+}
+
+function redisRestToken() {
+  return process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || "";
+}
+
 function hasKv() {
-  return Boolean(process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN);
+  return Boolean(redisRestUrl() && redisRestToken());
 }
 
 async function kvCommand(command) {
-  const response = await fetch(process.env.KV_REST_API_URL, {
+  const response = await fetch(redisRestUrl(), {
     method: "POST",
     headers: {
-      authorization: `Bearer ${process.env.KV_REST_API_TOKEN}`,
+      authorization: `Bearer ${redisRestToken()}`,
       "content-type": "application/json",
     },
     body: JSON.stringify(command),
@@ -110,7 +118,19 @@ function normalizeRoom(room) {
     });
   }
 
+  if (normalized.status === "active" && allParticipantsCompleted(normalized)) {
+    normalized.status = "ended";
+  }
+
   return normalized;
+}
+
+function allParticipantsCompleted(room) {
+  const participantIds = Object.keys(room.participants || {});
+  return participantIds.length > 0 && participantIds.every((participantId) => {
+    const responses = room.answers?.[participantId]?.responses || {};
+    return Object.keys(responses).length >= QUESTION_COUNT;
+  });
 }
 
 function elapsedFromStart(room, timestamp) {
@@ -331,6 +351,7 @@ module.exports = async function handler(req, res) {
         answeredAt: Date.now(),
       };
 
+      room = normalizeRoom(room);
       await saveRoom(room);
       return json(res, 200, { room: publicRoom(room) });
     }

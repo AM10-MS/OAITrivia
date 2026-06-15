@@ -9,60 +9,60 @@ const questions = [
     category: "Milestone",
     question: "The celebration is for Singapore reaching which milestone?",
     answers: [
-      "100 employees in Singapore",
       "100 desks at CapitaSpring",
       "100 access cards issued by TWP",
+      "100 employees in Singapore",
       "100 days since the Level 40 move"
     ],
-    correct: 0,
+    correct: 2,
     detail: "The milestone is the Singapore office reaching 100 employees."
   },
   {
     category: "Location",
     question: "Which address is the cleanest match for the Singapore office?",
     answers: [
-      "88 Market Street, CapitaSpring, #40-03",
       "88 Market Street, CapitaSpring, #40-30",
+      "88 Market Street, CapitaSpring, #40-03",
       "88 Marina Boulevard, CapitaSpring, #40-03",
       "80 Market Street, CapitaSpring, #40-03"
     ],
-    correct: 0,
+    correct: 1,
     detail: "The office is at 88 Market Street, CapitaSpring, #40-03."
   },
   {
     category: "Hours",
     question: "Which operating-hours statement is most precise?",
     answers: [
-      "9am to 6pm, Monday to Friday, excluding Singapore public holidays",
       "9am to 6pm, Monday to Friday, including Singapore public holidays",
       "8am to 6pm, Monday to Friday, excluding Singapore public holidays",
-      "9am to 6pm daily, as long as TWP reception is open"
+      "9am to 6pm daily, as long as TWP reception is open",
+      "9am to 6pm, Monday to Friday, excluding Singapore public holidays"
     ],
-    correct: 0,
+    correct: 3,
     detail: "The standard office window is 9am to 6pm, Monday to Friday, excluding Singapore public holidays."
   },
   {
     category: "Level 40",
     question: "Which provider name is the right one for the serviced-office layer?",
     answers: [
-      "The Work Project",
       "The Workplace Project",
       "CapitaSpring Work Project",
+      "The Work Project",
       "The Working Platform"
     ],
-    correct: 0,
+    correct: 2,
     detail: "The Singapore office operates within The Work Project, often shortened to TWP."
   },
   {
     category: "Access",
     question: "Which access stack is the best match for the normal Singapore flow?",
     answers: [
-      "CapitaStar@Work QR, TWP badge, OAI photo badge",
       "CapitaStar@Work QR, OAI photo badge, printer PIN",
+      "CapitaStar@Work QR, TWP badge, OAI photo badge",
       "TWP badge, Visitly pass, OAI laptop sticker",
       "Ground-floor QR, room booking, Slack profile"
     ],
-    correct: 0,
+    correct: 1,
     detail: "The normal stack is building QR, TWP badge, then OAI photo badge."
   },
   {
@@ -81,84 +81,84 @@ const questions = [
     category: "Capacity",
     question: "The current playbook lists Singapore capacity closest to which number?",
     answers: [
-      "114 desks",
       "104 desks",
       "100 desks exactly",
-      "114 seats including phone booths"
+      "114 seats including phone booths",
+      "114 desks"
     ],
-    correct: 0,
+    correct: 3,
     detail: "The current playbook lists capacity as 114 desks."
   },
   {
     category: "Space",
     question: "Which size pairing matches the Singapore office overview?",
     answers: [
-      "About 5,133 sqft / 477 sqm",
       "About 5,313 sqft / 477 sqm",
-      "About 5,133 sqft / 747 sqm",
-      "About 4,773 sqft / 513 sqm"
+      "About 4,773 sqft / 513 sqm",
+      "About 5,133 sqft / 477 sqm",
+      "About 5,133 sqft / 747 sqm"
     ],
-    correct: 0,
+    correct: 2,
     detail: "The office overview lists approximately 5,133 sqft, or 477 sqm."
   },
   {
     category: "Rooms",
     question: "Which pair is the strongest clue for the main Singapore event-room names?",
     answers: [
+      "Marina Bay and Botanic",
       "Straits and Marina Bay",
       "Straits and Kaya Toast",
-      "Marina Bay and Botanic",
       "Board Room and Merlion"
     ],
-    correct: 0,
+    correct: 1,
     detail: "Straits and Marina Bay are the main event-room names referenced in the playbook."
   },
   {
     category: "Food",
     question: "Which Singapore meal-window set is the accurate one?",
     answers: [
-      "Breakfast 8am-10am, lunch 10am-2pm, dinner 5pm-8pm",
       "Breakfast 8am-10am, lunch 11am-2pm, dinner 5pm-8pm",
       "Breakfast 7am-10am, lunch 10am-2pm, dinner 5pm-8pm",
-      "Breakfast 8am-10am, lunch 10am-3pm, dinner 6pm-8pm"
+      "Breakfast 8am-10am, lunch 10am-3pm, dinner 6pm-8pm",
+      "Breakfast 8am-10am, lunch 10am-2pm, dinner 5pm-8pm"
     ],
-    correct: 0,
+    correct: 3,
     detail: "The APAC workplace orientation lists breakfast 8am-10am, lunch 10am-2pm, and dinner 5pm-8pm."
   },
   {
     category: "Pantry",
     question: "Which vendor is tied to pantry shelves and chillers, not just office supplies or meal delivery?",
     answers: [
-      "Caterspot",
       "Deliveroo",
       "Lyreco",
+      "Caterspot",
       "Prince Landscape"
     ],
-    correct: 0,
+    correct: 2,
     detail: "Caterspot is referenced for pantry shelves, chillers, snacks, fruit, beverages, and coffee."
   },
   {
     category: "Office Rhythm",
     question: "Which weekly rhythm has appeared in Singapore workplace updates?",
     answers: [
-      "Wednesday Snack Drops",
       "Wednesday Pantry Drops",
+      "Wednesday Snack Drops",
       "Midweek Munchies",
       "Wednesday Team Lunch Drops"
     ],
-    correct: 0,
+    correct: 1,
     detail: "Singapore workplace updates reference Wednesday Snack Drops."
   },
   {
     category: "Safety",
     question: "Which AED location set is the precise one from the playbook?",
     answers: [
-      "Office 4003, Office 4011, and TWP Reception Level 40",
       "Office 4003, Straits, and Marina Bay",
       "Office 4011, Level 1 concierge, and TWP Reception Level 40",
-      "Office 4003, Office 4013, and the loading dock"
+      "Office 4003, Office 4013, and the loading dock",
+      "Office 4003, Office 4011, and TWP Reception Level 40"
     ],
-    correct: 0,
+    correct: 3,
     detail: "AEDs are listed at Office 4003, Office 4011, and TWP Reception Level 40."
   },
   {
@@ -177,12 +177,12 @@ const questions = [
     category: "Access",
     question: "The CapitaStar@Work QR is mainly for which first barrier?",
     answers: [
-      "Ground floor lobby turnstiles",
       "OAI suite badge readers",
       "TWP meeting-room booking screens",
+      "Ground floor lobby turnstiles",
       "The pantry chiller access log"
     ],
-    correct: 0,
+    correct: 2,
     detail: "The QR code is used at the ground floor lobby turnstiles before heading to Level 40."
   }
 ];
@@ -528,22 +528,22 @@ function updateDemoRoom() {
   const elapsed = Math.min(durationMs, Math.max(0, Date.now() - startedAt));
   const participantCount = Math.min(42, 18 + Math.floor(elapsed / 7500));
   const status = elapsed >= durationMs ? "ended" : "active";
-  const answersByQuestion = questions.map((_, questionIndex) => {
+  const answersByQuestion = questions.map((question, questionIndex) => {
     const wave = Math.max(0, Math.floor((elapsed - questionIndex * 6200) / 1500));
     const total = Math.min(participantCount, wave);
     const bias = 0.34 + (questionIndex % 5) * 0.055;
     const correct = Math.min(total, Math.floor(total * bias));
     const remainder = Math.max(0, total - correct);
+    const wrongIndexes = [0, 1, 2, 3].filter((answerIndex) => answerIndex !== question.correct);
+    const choices = { [question.correct]: correct };
+    choices[wrongIndexes[0]] = Math.ceil(remainder * 0.38);
+    choices[wrongIndexes[1]] = Math.floor(remainder * 0.34);
+    choices[wrongIndexes[2]] = Math.max(0, remainder - choices[wrongIndexes[0]] - choices[wrongIndexes[1]]);
     return {
       questionIndex,
       total,
       correct,
-      choices: {
-        0: correct,
-        1: Math.ceil(remainder * 0.38),
-        2: Math.floor(remainder * 0.34),
-        3: Math.max(0, remainder - Math.ceil(remainder * 0.38) - Math.floor(remainder * 0.34))
-      }
+      choices
     };
   });
   const responseCount = answersByQuestion.reduce((sum, row) => sum + row.total, 0);
