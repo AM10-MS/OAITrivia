@@ -139,7 +139,7 @@ const questions = [
   },
   {
     category: "Pantry",
-    question: "Which snack was called out as popular in the 6 Apr-10 Apr pantry insight week?",
+    question: "Which snack was highlighted as a popular item for the Singapore pantry?",
     answers: [
       "WantWant Rice Crackers",
       "Hey!Chips Corn Crisps",
