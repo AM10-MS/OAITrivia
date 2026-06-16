@@ -1,0 +1,337 @@
+{"kind":"deck","id":"pr/7e2nzv","name":"Deck"}
+{"kind":"layout","layoutId":"430a01eb-9287-4a3f-b5ff-0838216042b6","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"9d62e0e0-30c5-4309-8fa4-c7e7dde28fbd","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3ciktx","slide":1,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":8}
+{"kind":"shape","id":"sh/crmhk3q5","slide":1,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/j6tovaho","slide":1,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/ulwval87","slide":1,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":1,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":1,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/ji5snelo","slide":1,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":1,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":1,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/8bat47y1","slide":1,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":1,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/neloj2t8","slide":1,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/czed8v6p","slide":1,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":1,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/u54zidon","slide":1,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":1,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/cbulwval","slide":1,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/5sneloj2","slide":1,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/y90je9cv","slide":1,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":1,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":1,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/q1orytsv","slide":1,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/xs72x4na","slide":1,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/87ed8bat","slide":1,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/je9cvixc","slide":1,"name":"confetti-1-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":1,"name":"confetti-1-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/1gvy90je","slide":1,"name":"confetti-1-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":1,"name":"confetti-1-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":1,"name":"confetti-1-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":1,"name":"confetti-1-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":1,"name":"confetti-1-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/9knih4by","slide":1,"name":"confetti-1-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/2t83itgf","slide":1,"name":"confetti-1-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":1,"name":"confetti-bar-1-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":1,"name":"confetti-bar-1-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":1,"name":"footer-rule-1","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":1,"name":"footer-1","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":1,"name":"slide-no-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":1,"name":"cover-kicker","text":"OPENAI SINGAPORE HAPPY HOUR","textPreview":"OPENAI SINGAPORE HAPPY HOUR","textChars":27,"textLines":1,"bbox":[72,68,560,28]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":1,"name":"cover-title","text":"Celebrating 100 Staff","textPreview":"Celebrating 100 Staff","textChars":21,"textLines":1,"bbox":[72,122,680,150]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":1,"name":"cover-meta","text":"Tuesday, 23 June 2026\nMarina Bay","textPreview":"Tuesday, 23 June 2026 | Marina Bay","textChars":32,"textLines":2,"bbox":[76,304,460,76]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":1,"name":"cover-orbit-coral","bbox":[720,98,70,70]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":1,"name":"cover-orbit-sky","bbox":[1110,82,48,48]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":1,"name":"cover-orbit-gold","bbox":[1052,430,62,62]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":1,"name":"cover-mark","bbox":[770,86,390,390]}
+{"kind":"textbox","id":"sh/wval87ed","slide":1,"name":"cover-100","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[792,110,350,150]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":1,"name":"cover-milestone","text":"A Singapore team milestone worth pausing for.","textPreview":"A Singapore team milestone worth pausing for.","textChars":45,"textLines":1,"bbox":[825,292,290,86]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"name":"cover-note","text":"Food, trivia, prizes, jerseys, and a proper toast to the team.","textPreview":"Food, trivia, prizes, jerseys, and a proper toast to the team.","textChars":62,"textLines":1,"bbox":[72,470,700,72]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":1,"name":"cover-accent","bbox":[72,590,520,7]}
+{"kind":"notes","id":"nt/3ciktx","slide":1,"text":""}
+{"kind":"slide","id":"sl/m5r3xz","slide":2,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":20}
+{"kind":"shape","id":"sh/zupwb2hw","slide":2,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":2,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":2,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/al87ed8b","slide":2,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/z61032ls","slide":2,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/orytsvu9","slide":2,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":2,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":2,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":2,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":2,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":2,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/58z25kb6","slide":2,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":2,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":2,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/y90je9cv","slide":2,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":2,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":2,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":2,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/u54zidon","slide":2,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":2,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/vu9knih4","slide":2,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":2,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/d0z61032","slide":2,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":2,"name":"confetti-2-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/v6psfil0","slide":2,"name":"confetti-2-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/knih4byh","slide":2,"name":"confetti-2-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/d8bat47y","slide":2,"name":"confetti-2-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/6psfil0r","slide":2,"name":"confetti-2-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/val87ed8","slide":2,"name":"confetti-2-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":2,"name":"confetti-2-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/svu9knih","slide":2,"name":"confetti-2-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/za1gvy90","slide":2,"name":"confetti-2-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":2,"name":"confetti-bar-2-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":2,"name":"confetti-bar-2-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":2,"name":"footer-rule-2","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":2,"name":"footer-2","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":2,"name":"slide-no-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":2,"name":"eyebrow-pill-Proposed agenda","bbox":[72,56,330,38]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":2,"name":"eyebrow","text":"PROPOSED AGENDA","textPreview":"PROPOSED AGENDA","textChars":15,"textLines":1,"bbox":[94,64,500,24]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":2,"name":"title","text":"The evening at a glance","textPreview":"The evening at a glance","textChars":23,"textLines":1,"bbox":[72,98,780,108]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":2,"name":"card-4:30","bbox":[72,250,208,190]}
+{"kind":"shape","id":"sh/yxobm58z","slide":2,"name":"card-bar-4:30","bbox":[88,416,176,8]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":2,"name":"time-4:30","text":"4:30","textPreview":"4:30","textChars":4,"textLines":1,"bbox":[92,268,168,42]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":2,"name":"label-4:30","text":"Food arrival","textPreview":"Food arrival","textChars":12,"textLines":1,"bbox":[92,315,168,30]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":2,"name":"detail-4:30","text":"Catering arrives on-site; allow 15 minutes for setup.","textPreview":"Catering arrives on-site; allow 15 minutes for setup.","textChars":53,"textLines":1,"bbox":[92,348,168,58]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":2,"name":"card-4:45","bbox":[300,250,208,190]}
+{"kind":"shape","id":"sh/r65wjudg","slide":2,"name":"card-bar-4:45","bbox":[316,416,176,8]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":2,"name":"time-4:45","text":"4:45","textPreview":"4:45","textChars":4,"textLines":1,"bbox":[320,268,168,42]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":2,"name":"label-4:45","text":"Guests arrive","textPreview":"Guests arrive","textChars":13,"textLines":1,"bbox":[320,315,168,30]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":2,"name":"detail-4:45","text":"Food, trivia, and jersey area ready for the team.","textPreview":"Food, trivia, and jersey area ready for the team.","textChars":49,"textLines":1,"bbox":[320,348,168,58]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":2,"name":"card-5:00","bbox":[528,250,208,190]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":2,"name":"card-bar-5:00","bbox":[544,416,176,8]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":2,"name":"time-5:00","text":"5:00","textPreview":"5:00","textChars":4,"textLines":1,"bbox":[548,268,168,42]}
+{"kind":"textbox","id":"sh/z61032ls","slide":2,"name":"label-5:00","text":"Opening remarks","textPreview":"Opening remarks","textChars":15,"textLines":1,"bbox":[548,315,168,30]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":2,"name":"detail-5:00","text":"Host welcome and 100-staff milestone celebration.","textPreview":"Host welcome and 100-staff milestone celebration.","textChars":49,"textLines":1,"bbox":[548,348,168,58]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":2,"name":"card-5:05","bbox":[756,250,208,190]}
+{"kind":"shape","id":"sh/orytsvu9","slide":2,"name":"card-bar-5:05","bbox":[772,416,176,8]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":2,"name":"time-5:05","text":"5:05","textPreview":"5:05","textChars":4,"textLines":1,"bbox":[776,268,168,42]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":2,"name":"label-5:05","text":"Trivia challenge","textPreview":"Trivia challenge","textChars":16,"textLines":1,"bbox":[776,315,168,30]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":2,"name":"detail-5:05","text":"Scan, join, and complete 15 questions in 5 minutes.","textPreview":"Scan, join, and complete 15 questions in 5 minutes.","textChars":51,"textLines":1,"bbox":[776,348,168,58]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":2,"name":"card-5:15+","bbox":[984,250,208,190]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":2,"name":"card-bar-5:15+","bbox":[1000,416,176,8]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":2,"name":"time-5:15+","text":"5:15+","textPreview":"5:15+","textChars":5,"textLines":1,"bbox":[1004,268,168,42]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":2,"name":"label-5:15+","text":"Feast & social","textPreview":"Feast & social","textChars":14,"textLines":1,"bbox":[1004,315,168,30]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":2,"name":"detail-5:15+","text":"Food service, photos, and time together.","textPreview":"Food service, photos, and time together.","textChars":40,"textLines":1,"bbox":[1004,348,168,58]}
+{"kind":"textbox","id":"sh/wval87ed","slide":2,"name":"agenda-note","text":"Keep the formal moments crisp; let the room move quickly into the celebration.","textPreview":"Keep the formal moments crisp; let the room move quickly into the celebration.","textChars":78,"textLines":1,"bbox":[74,512,980,48]}
+{"kind":"notes","id":"nt/m5r3xz","slide":2,"text":""}
+{"kind":"slide","id":"sl/3taek1","slide":3,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":13}
+{"kind":"shape","id":"sh/9w3m94fu","slide":3,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":3,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":3,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":3,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/9knih4by","slide":3,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/2t83itgf","slide":3,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":3,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/gvy90je9","slide":3,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":3,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/dg7adsji","slide":3,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/ovahoza1","slide":3,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/vahoza1g","slide":3,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/6tovahoz","slide":3,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":3,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/onyd0z61","slide":3,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":3,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":3,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":3,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/oj2t83it","slide":3,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/gvy90je9","slide":3,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":3,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":3,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":3,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":3,"name":"confetti-3-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/94fu18jq","slide":3,"name":"confetti-3-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":3,"name":"confetti-3-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":3,"name":"confetti-3-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":3,"name":"confetti-3-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":3,"name":"confetti-3-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/3m94fu18","slide":3,"name":"confetti-3-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":3,"name":"confetti-3-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":3,"name":"confetti-3-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/s72x4nap","slide":3,"name":"confetti-bar-3-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":3,"name":"confetti-bar-3-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/adsji5sn","slide":3,"name":"footer-rule-3","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":3,"name":"footer-3","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/sji5snel","slide":3,"name":"slide-no-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"shape","id":"sh/za1gvy90","slide":3,"name":"eyebrow-pill-Readiness","bbox":[72,56,330,38]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":3,"name":"eyebrow","text":"READINESS","textPreview":"READINESS","textChars":9,"textLines":1,"bbox":[94,64,500,24]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":3,"name":"title","text":"Before guests arrive","textPreview":"Before guests arrive","textChars":20,"textLines":1,"bbox":[72,98,700,108]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":3,"name":"readiness-main","bbox":[72,236,520,300]}
+{"kind":"shape","id":"sh/4r65wjud","slide":3,"name":"readiness-main-bar","bbox":[108,498,180,9]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":3,"name":"readiness-time","text":"4:30 PM","textPreview":"4:30 PM","textChars":7,"textLines":1,"bbox":[108,272,220,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":3,"name":"readiness-head","text":"Food arrival","textPreview":"Food arrival","textChars":12,"textLines":1,"bbox":[108,338,340,44]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":3,"name":"readiness-body","text":"Catering arrives on-site. Allow approximately 15 minutes for setup and arrangement.","textPreview":"Catering arrives on-site. Allow approximately 15 minutes for setup and arrangement.","textChars":83,"textLines":1,"bbox":[108,398,420,92]}
+{"kind":"shape","id":"sh/4zidonyd","slide":3,"name":"ready-card-1","bbox":[640,236,250,140]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":3,"name":"ready-card-1-title","text":"Food setup","textPreview":"Food setup","textChars":10,"textLines":1,"bbox":[664,264,200,30]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":3,"name":"ready-card-1-body","text":"Completed and guest-ready by 4:45 PM.","textPreview":"Completed and guest-ready by 4:45 PM.","textChars":37,"textLines":1,"bbox":[664,308,185,46]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":3,"name":"ready-card-2","bbox":[918,236,250,140]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":3,"name":"ready-card-2-title","text":"Trivia platform","textPreview":"Trivia platform","textChars":15,"textLines":1,"bbox":[942,264,200,30]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":3,"name":"ready-card-2-body","text":"Test the link and keep QR visible in rooms.","textPreview":"Test the link and keep QR visible in rooms.","textChars":43,"textLines":1,"bbox":[942,308,188,46]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":3,"name":"ready-card-3","bbox":[640,396,528,140]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":3,"name":"ready-card-3-title","text":"Jersey swag distribution","textPreview":"Jersey swag distribution","textChars":24,"textLines":1,"bbox":[664,424,380,34]}
+{"kind":"textbox","id":"sh/1032lszq","slide":3,"name":"ready-card-3-body","text":"Prep the distribution area early so giveaway flow stays relaxed after winners are announced.","textPreview":"Prep the distribution area early so giveaway flow stays relaxed after winners are announced.","textChars":92,"textLines":1,"bbox":[664,470,430,46]}
+{"kind":"notes","id":"nt/3taek1","slide":3,"text":""}
+{"kind":"slide","id":"sl/1rphfr","slide":4,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":8}
+{"kind":"shape","id":"sh/7adsji5s","slide":4,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/wval87ed","slide":4,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":4,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":4,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":4,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":4,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/psfil0rq","slide":4,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/ed8bat47","slide":4,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/7u54zido","slide":4,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":4,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":4,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/lwval87e","slide":4,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":4,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":4,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":4,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/loj2t83i","slide":4,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":4,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":4,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/at47y1kr","slide":4,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/ixczed8v","slide":4,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":4,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/032lszqt","slide":4,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/tovahoza","slide":4,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":4,"name":"confetti-4-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/bulwval8","slide":4,"name":"confetti-4-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/0fepkzup","slide":4,"name":"confetti-4-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":4,"name":"confetti-4-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/idonyd0z","slide":4,"name":"confetti-4-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/byhgn29g","slide":4,"name":"confetti-4-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":4,"name":"confetti-4-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":4,"name":"confetti-4-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":4,"name":"confetti-4-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":4,"name":"confetti-bar-4-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":4,"name":"confetti-bar-4-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/obm58z25","slide":4,"name":"footer-rule-4","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":4,"name":"footer-4","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":4,"name":"slide-no-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":4,"name":"eyebrow-pill-OpenAI trivia challenge","bbox":[72,56,330,38]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":4,"name":"eyebrow","text":"OPENAI TRIVIA CHALLENGE","textPreview":"OPENAI TRIVIA CHALLENGE","textChars":23,"textLines":1,"bbox":[94,64,500,24]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":4,"name":"title","text":"Scan to play","textPreview":"Scan to play","textChars":12,"textLines":1,"bbox":[72,96,560,108]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":4,"name":"trivia-bullets-card","bbox":[72,230,565,205]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":4,"name":"trivia-details","text":"15 Singapore office questions\n5 minutes to complete\nLeaderboard unlocks at completion","textPreview":"15 Singapore office questions | 5 minutes to complete | Leaderboard unlocks at completion","textChars":85,"textLines":3,"bbox":[76,242,530,160]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":4,"name":"trivia-host","text":"Host: Madani starts the game once everyone is ready.","textPreview":"Host: Madani starts the game once everyone is ready.","textChars":52,"textLines":1,"bbox":[78,442,560,54]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":4,"name":"qr-frame","bbox":[760,70,390,500]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":4,"name":"qr-caption","text":"https://oai-trivia.vercel.app/","textPreview":"https://oai-trivia.vercel.app/","textChars":30,"textLines":1,"bbox":[790,420,330,42]}
+{"kind":"textbox","id":"sh/7u54zido","slide":4,"name":"qr-instruction","text":"Enter your name, wait for host start, then answer quickly.","textPreview":"Enter your name, wait for host start, then answer quickly.","textChars":58,"textLines":1,"bbox":[800,474,310,58]}
+{"kind":"image","id":"im/2p8nqxs7","slide":4,"name":"","alt":"QR code for OpenAI Singapore trivia website","bbox":[812,104,286,286]}
+{"kind":"notes","id":"nt/1rphfr","slide":4,"text":""}
+{"kind":"slide","id":"sl/pcspb9","slide":5,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":15}
+{"kind":"shape","id":"sh/zidonyd0","slide":5,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":5,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":5,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":5,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/za1gvy90","slide":5,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/svu9knih","slide":5,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":5,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/adsji5sn","slide":5,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":5,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/bat47y1k","slide":5,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":5,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":5,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":5,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/bm58z25k","slide":5,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":5,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":5,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/47y1kre1","slide":5,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/bq1oryts","slide":5,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/m58z25kb","slide":5,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":5,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/j2t83itg","slide":5,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":5,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":5,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":5,"name":"confetti-5-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":5,"name":"confetti-5-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/8bat47y1","slide":5,"name":"confetti-5-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":5,"name":"confetti-5-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":5,"name":"confetti-5-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/ji5snelo","slide":5,"name":"confetti-5-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/p4r65wju","slide":5,"name":"confetti-5-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":5,"name":"confetti-5-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":5,"name":"confetti-5-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":5,"name":"confetti-bar-5-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":5,"name":"confetti-bar-5-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":5,"name":"footer-rule-5","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":5,"name":"footer-5","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"name":"slide-no-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":5,"name":"eyebrow-pill-Winners and giveaways","bbox":[72,56,330,38]}
+{"kind":"textbox","id":"sh/0z61032l","slide":5,"name":"eyebrow","text":"WINNERS AND GIVEAWAYS","textPreview":"WINNERS AND GIVEAWAYS","textChars":21,"textLines":1,"bbox":[94,64,500,24]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":5,"name":"title","text":"Top 3 take the prizes","textPreview":"Top 3 take the prizes","textChars":21,"textLines":1,"bbox":[72,98,760,108]}
+{"kind":"shape","id":"sh/d0z61032","slide":5,"name":"prize-1st","bbox":[72,268,320,190]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":5,"name":"prize-bar-1st","bbox":[96,438,120,8]}
+{"kind":"shape","id":"sh/vu9knih4","slide":5,"name":"prize-dot-1st","bbox":[338,294,24,24]}
+{"kind":"textbox","id":"sh/knih4byh","slide":5,"name":"rank-1st","text":"1st","textPreview":"1st","textChars":3,"textLines":1,"bbox":[98,292,120,58]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":5,"name":"prize-label-1st","text":"Trivia prize","textPreview":"Trivia prize","textChars":12,"textLines":1,"bbox":[100,365,220,26]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":5,"name":"prize-value-1st","text":"$30 Grab voucher","textPreview":"$30 Grab voucher","textChars":16,"textLines":1,"bbox":[100,398,260,40]}
+{"kind":"shape","id":"sh/v6psfil0","slide":5,"name":"prize-2nd","bbox":[416,268,320,190]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":5,"name":"prize-bar-2nd","bbox":[440,438,120,8]}
+{"kind":"shape","id":"sh/dcbulwva","slide":5,"name":"prize-dot-2nd","bbox":[682,294,24,24]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":5,"name":"rank-2nd","text":"2nd","textPreview":"2nd","textChars":3,"textLines":1,"bbox":[442,292,120,58]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":5,"name":"prize-label-2nd","text":"Trivia prize","textPreview":"Trivia prize","textChars":12,"textLines":1,"bbox":[444,365,220,26]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":5,"name":"prize-value-2nd","text":"$20 Grab voucher","textPreview":"$20 Grab voucher","textChars":16,"textLines":1,"bbox":[444,398,260,40]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":5,"name":"prize-3rd","bbox":[760,268,320,190]}
+{"kind":"shape","id":"sh/za1gvy90","slide":5,"name":"prize-bar-3rd","bbox":[784,438,120,8]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":5,"name":"prize-dot-3rd","bbox":[1026,294,24,24]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":5,"name":"rank-3rd","text":"3rd","textPreview":"3rd","textChars":3,"textLines":1,"bbox":[786,292,120,58]}
+{"kind":"textbox","id":"sh/svu9knih","slide":5,"name":"prize-label-3rd","text":"Trivia prize","textPreview":"Trivia prize","textChars":12,"textLines":1,"bbox":[788,365,220,26]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"name":"prize-value-3rd","text":"$10 Grab voucher","textPreview":"$10 Grab voucher","textChars":16,"textLines":1,"bbox":[788,398,260,40]}
+{"kind":"shape","id":"sh/adsji5sn","slide":5,"name":"swag-card","bbox":[72,500,1032,92]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":5,"name":"swag-title","text":"100 commemorative jersey swags","textPreview":"100 commemorative jersey swags","textChars":30,"textLines":1,"bbox":[104,524,430,36]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":5,"name":"swag-body","text":"Distributed to attendees to mark the 100-staff milestone.","textPreview":"Distributed to attendees to mark the 100-staff milestone.","textChars":57,"textLines":1,"bbox":[554,528,480,34]}
+{"kind":"notes","id":"nt/pcspb9","slide":5,"text":""}
+{"kind":"slide","id":"sl/ah7b7v","slide":6,"title":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textShapes":8}
+{"kind":"shape","id":"sh/9w3m94fu","slide":6,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":6,"bbox":[160,0,1,720]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":6,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":6,"bbox":[320,0,1,720]}
+{"kind":"shape","id":"sh/9knih4by","slide":6,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/2t83itgf","slide":6,"bbox":[480,0,1,720]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":6,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/gvy90je9","slide":6,"bbox":[640,0,1,720]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":6,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/dg7adsji","slide":6,"bbox":[800,0,1,720]}
+{"kind":"shape","id":"sh/ovahoza1","slide":6,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/vahoza1g","slide":6,"bbox":[960,0,1,720]}
+{"kind":"shape","id":"sh/6tovahoz","slide":6,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":6,"bbox":[1120,0,1,720]}
+{"kind":"shape","id":"sh/onyd0z61","slide":6,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":6,"bbox":[0,80,1280,1]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":6,"bbox":[0,160,1280,1]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":6,"bbox":[0,240,1280,1]}
+{"kind":"shape","id":"sh/oj2t83it","slide":6,"bbox":[0,320,1280,1]}
+{"kind":"shape","id":"sh/gvy90je9","slide":6,"bbox":[0,400,1280,1]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":6,"bbox":[0,480,1280,1]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":6,"bbox":[0,560,1280,1]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":6,"bbox":[0,640,1280,1]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":6,"name":"confetti-6-0","bbox":[1018,44,14,14]}
+{"kind":"shape","id":"sh/94fu18jq","slide":6,"name":"confetti-6-1","bbox":[1064,78,8,8]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":6,"name":"confetti-6-2","bbox":[1134,54,11,11]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":6,"name":"confetti-6-3","bbox":[1180,118,16,16]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":6,"name":"confetti-6-4","bbox":[1110,610,10,10]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":6,"name":"confetti-6-5","bbox":[1162,584,14,14]}
+{"kind":"shape","id":"sh/3m94fu18","slide":6,"name":"confetti-6-6","bbox":[1010,626,8,8]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":6,"name":"confetti-6-7","bbox":[44,570,12,12]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":6,"name":"confetti-6-8","bbox":[112,610,9,9]}
+{"kind":"shape","id":"sh/s72x4nap","slide":6,"name":"confetti-bar-6-1","bbox":[1082,150,58,8]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":6,"name":"confetti-bar-6-2","bbox":[1000,94,42,8]}
+{"kind":"shape","id":"sh/adsji5sn","slide":6,"name":"footer-rule-6","bbox":[72,664,1136,1]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":6,"name":"footer-6","text":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textPreview":"OpenAI Singapore Happy Hour | 23 Jun 2026 | Marina Bay","textChars":54,"textLines":1,"bbox":[72,682,780,22]}
+{"kind":"textbox","id":"sh/sji5snel","slide":6,"name":"slide-no-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1162,678,48,26]}
+{"kind":"shape","id":"sh/za1gvy90","slide":6,"name":"eyebrow-pill-5:15 PM onwards","bbox":[72,56,330,38]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":6,"name":"eyebrow","text":"5:15 PM ONWARDS","textPreview":"5:15 PM ONWARDS","textChars":15,"textLines":1,"bbox":[94,64,500,24]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":6,"name":"title","text":"Feast, social hour, and photos","textPreview":"Feast, social hour, and photos","textChars":30,"textLines":1,"bbox":[72,98,860,108]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":6,"name":"closing-panel","bbox":[72,238,690,280]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":6,"name":"closing-copy","text":"Food service begins.\nTeam celebration and networking.\nPhoto opportunities around the room.\nEnjoy the evening and celebrate the growth of the Singapore team.","textPreview":"Food service begins. | Team celebration and networking. | Photo opportunities around the room. | Enjoy the evening and celebrate the grow...","textChars":156,"textLines":4,"bbox":[112,274,600,190]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":6,"name":"closing-100","bbox":[838,230,250,250]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":6,"name":"closing-number","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[860,260,205,105]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":6,"name":"closing-label","text":"Singapore staff milestone","textPreview":"Singapore staff milestone","textChars":25,"textLines":1,"bbox":[870,372,185,70]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":6,"name":"closing-thanks","text":"Thank you for helping make the Singapore office feel like a team.","textPreview":"Thank you for helping make the Singapore office feel like a team.","textChars":65,"textLines":1,"bbox":[76,568,920,54]}
+{"kind":"notes","id":"nt/ah7b7v","slide":6,"text":""}

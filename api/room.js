@@ -3,7 +3,7 @@ const ROOM_KEY = "singapore-100-office-trivia-room";
 const QUESTION_COUNT = 15;
 const DURATION_MS = 5 * 60 * 1000;
 const PARTICIPANT_STALE_MS = 10 * 60 * 1000;
-const CORRECT_ANSWERS = [2, 1, 3, 2, 1, 0, 3, 2, 1, 3, 2, 1, 3, 0, 2];
+const CORRECT_ANSWERS = [2, 2, 3, 2, 1, 0, 1, 3, 1, 0, 2, 2, 3, 0, 2];
 
 function makeEmptyRoom() {
   return {

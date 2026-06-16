@@ -21,13 +21,13 @@ const questions = [
     category: "Location",
     question: "Which address is the cleanest match for the Singapore office?",
     answers: [
-      "88 Market Street, CapitaSpring, #40-30",
-      "88 Market Street, CapitaSpring, #40-03",
-      "88 Marina Boulevard, CapitaSpring, #40-03",
-      "80 Market Street, CapitaSpring, #40-03"
+      "88 Marina Boulevard, CapitaSpring",
+      "80 Market Street, CapitaSpring",
+      "88 Market Street, CapitaSpring",
+      "88 Market Street, Marina One"
     ],
-    correct: 1,
-    detail: "The office is at 88 Market Street, CapitaSpring, #40-03."
+    correct: 2,
+    detail: "The Singapore office address is 88 Market Street, CapitaSpring."
   },
   {
     category: "Hours",
@@ -79,27 +79,27 @@ const questions = [
   },
   {
     category: "Capacity",
-    question: "The current playbook lists Singapore capacity closest to which number?",
+    question: "The Singapore office has 64 desks plus 48 additional seats. What is the total capacity?",
     answers: [
-      "104 desks",
-      "100 desks exactly",
-      "114 seats including phone booths",
-      "114 desks"
+      "114",
+      "112",
+      "108",
+      "116"
     ],
-    correct: 3,
-    detail: "The current playbook lists capacity as 114 desks."
+    correct: 1,
+    detail: "64 plus 48 gives a total capacity of 112."
   },
   {
-    category: "Space",
-    question: "Which size pairing matches the Singapore office overview?",
+    category: "Pantry",
+    question: "Which drink shows up as a popular item in both the 23 Mar and 27 Apr pantry insight weeks?",
     answers: [
-      "About 5,313 sqft / 477 sqm",
-      "About 4,773 sqft / 513 sqm",
-      "About 5,133 sqft / 477 sqm",
-      "About 5,133 sqft / 747 sqm"
+      "Perrier Sparkling Water",
+      "100Plus Sports Drink",
+      "Dash Sparkling Raspberry Water",
+      "Coke Zero"
     ],
-    correct: 2,
-    detail: "The office overview lists approximately 5,133 sqft, or 477 sqm."
+    correct: 3,
+    detail: "Coke Zero appears as a popular pantry item in both the 23 Mar and 27 Apr weekly pantry insights."
   },
   {
     category: "Rooms",
@@ -115,15 +115,15 @@ const questions = [
   },
   {
     category: "Food",
-    question: "Which Singapore meal-window set is the accurate one?",
+    question: "Which Singapore meal allowance timing set is the accurate one?",
     answers: [
-      "Breakfast 8am-10am, lunch 11am-2pm, dinner 5pm-8pm",
-      "Breakfast 7am-10am, lunch 10am-2pm, dinner 5pm-8pm",
-      "Breakfast 8am-10am, lunch 10am-3pm, dinner 6pm-8pm",
-      "Breakfast 8am-10am, lunch 10am-2pm, dinner 5pm-8pm"
+      "Breakfast 7am-10am, lunch 10am-2pm, dinner 5pm-9pm",
+      "Breakfast 8am-10am, lunch 10am-2pm, dinner 5pm-8pm",
+      "Breakfast 7am-10am, lunch 11am-2pm, dinner 5pm-9pm",
+      "Breakfast 8am-10am, lunch 10am-3pm, dinner 5pm-9pm"
     ],
-    correct: 3,
-    detail: "The APAC workplace orientation lists breakfast 8am-10am, lunch 10am-2pm, and dinner 5pm-8pm."
+    correct: 0,
+    detail: "The updated Singapore allowance timing is breakfast 7am-10am, lunch 10am-2pm, and dinner 5pm-9pm."
   },
   {
     category: "Pantry",
@@ -138,16 +138,16 @@ const questions = [
     detail: "Caterspot is referenced for pantry shelves, chillers, snacks, fruit, beverages, and coffee."
   },
   {
-    category: "Office Rhythm",
-    question: "Which weekly rhythm has appeared in Singapore workplace updates?",
+    category: "Pantry",
+    question: "Which snack was called out as popular in the 6 Apr-10 Apr pantry insight week?",
     answers: [
-      "Wednesday Pantry Drops",
-      "Wednesday Snack Drops",
-      "Midweek Munchies",
-      "Wednesday Team Lunch Drops"
+      "WantWant Rice Crackers",
+      "Hey!Chips Corn Crisps",
+      "Hello Panda Chocolate Biscuits",
+      "Organic Pitted Dates"
     ],
-    correct: 1,
-    detail: "Singapore workplace updates reference Wednesday Snack Drops."
+    correct: 2,
+    detail: "Hello Panda Chocolate Biscuits were called out as popular in the 6 Apr-10 Apr weekly pantry insights."
   },
   {
     category: "Safety",
