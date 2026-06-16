@@ -91,7 +91,7 @@ const questions = [
   },
   {
     category: "Pantry",
-    question: "Which drink shows up as a popular item in both the 23 Mar and 27 Apr pantry insight weeks?",
+    question: "Which drink appears repeatedly as a popular pantry item in the Singapore pantry?",
     answers: [
       "Perrier Sparkling Water",
       "100Plus Sports Drink",
