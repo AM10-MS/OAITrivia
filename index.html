@@ -39,7 +39,7 @@
             <div class="core-readout">
               <span>SG-OFFICE-MODEL</span>
               <strong id="room-status">Lobby waiting</strong>
-              <small id="room-subtitle">Host unlocks with OAI123456, then everyone gets 5 minutes.</small>
+              <small id="room-subtitle">Host unlocks with the host code, then everyone gets 5 minutes.</small>
             </div>
           </div>
 
@@ -79,14 +79,17 @@
         <section class="host-card" aria-labelledby="host-title">
           <div>
             <p class="category">Host control</p>
-            <h2 id="host-title">Start the 5-minute room</h2>
+            <h2 id="host-title">Unlock host controls</h2>
           </div>
           <label for="host-code">Host code</label>
           <div class="join-row">
             <input id="host-code" type="password" maxlength="16" autocomplete="off" placeholder="Enter host code">
-            <button class="primary-button" id="start-button" type="button">Start</button>
+            <button class="primary-button" id="unlock-button" type="button">Unlock</button>
           </div>
-          <button class="secondary-button reset-button" id="reset-button" type="button">Reset Room</button>
+          <div class="host-actions" id="host-actions" hidden>
+            <button class="primary-button" id="start-button" type="button" disabled>Start</button>
+            <button class="secondary-button reset-button" id="reset-button" type="button" disabled>Reset Room</button>
+          </div>
         </section>
 
         <div class="room-steps" aria-label="Live room flow">

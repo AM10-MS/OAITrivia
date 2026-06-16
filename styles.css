@@ -338,6 +338,16 @@ h2 {
   width: 100%;
 }
 
+.host-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.host-actions[hidden] {
+  display: none;
+}
+
 .room-steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -685,6 +695,7 @@ h2 {
   .system-grid,
   .room-steps,
   .join-row,
+  .host-actions,
   .actions {
     grid-template-columns: 1fr;
   }

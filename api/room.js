@@ -292,6 +292,13 @@ module.exports = async function handler(req, res) {
       return json(res, 200, { participantId: id, room: publicRoom(room) });
     }
 
+    if (action === "verify") {
+      if (String(body.code || "") !== HOST_CODE) {
+        return json(res, 403, { error: "Invalid host code" });
+      }
+      return json(res, 200, { ok: true, room: publicRoom(room) });
+    }
+
     if (action === "start") {
       if (String(body.code || "") !== HOST_CODE) {
         return json(res, 403, { error: "Invalid host code" });

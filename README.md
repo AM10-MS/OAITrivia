@@ -7,7 +7,7 @@ The question bank is based on non-sensitive Singapore office facts from the Sing
 This version is designed as a Vercel-hosted live-room experience:
 
 - participants enter a name and join
-- the host enters `OAI123456` and starts when the room is ready
+- the host enters `OAI123456`, unlocks host controls, and starts when the room is ready
 - everyone gets 5 minutes to answer on their own phone
 - answer choices are intentionally close and confusing
 - scores and rankings stay hidden during the game

@@ -196,6 +196,7 @@ const state = {
   localAnswers: {},
   answerStorageKey: "",
   apiOnline: false,
+  hostUnlocked: false,
   submitting: false
 };
 
@@ -204,6 +205,8 @@ const els = {
   playerBadge: document.querySelector("#player-badge"),
   hostCode: document.querySelector("#host-code"),
   join: document.querySelector("#join-button"),
+  unlock: document.querySelector("#unlock-button"),
+  hostActions: document.querySelector("#host-actions"),
   start: document.querySelector("#start-button"),
   reset: document.querySelector("#reset-button"),
   refresh: document.querySelector("#refresh-button"),
@@ -358,7 +361,38 @@ async function joinRoom() {
   }
 }
 
+async function unlockHost() {
+  const code = els.hostCode.value.trim();
+  if (!code) {
+    setFeedback("Enter the host code to unlock host controls.", true);
+    return;
+  }
+
+  setFeedback("Checking host code...", true);
+  try {
+    const data = await apiRequest("POST", { action: "verify", code });
+    state.apiOnline = true;
+    state.hostUnlocked = true;
+    renderHostControls();
+    applyRoom(data.room);
+    setFeedback("Host controls unlocked. You can start or reset the room.", true);
+  } catch (error) {
+    state.hostUnlocked = false;
+    renderHostControls();
+    setFeedback(error.message, true);
+  }
+}
+
+function requireHostUnlock() {
+  if (state.hostUnlocked) return true;
+  setFeedback("Unlock host controls with the host code first.", true);
+  renderHostControls();
+  return false;
+}
+
 async function startRoom() {
+  if (!requireHostUnlock()) return;
+
   const code = els.hostCode.value.trim();
   if (!code) {
     setFeedback("Host code required before the room can start.", true);
@@ -378,6 +412,8 @@ async function startRoom() {
 }
 
 async function resetRoom() {
+  if (!requireHostUnlock()) return;
+
   const code = els.hostCode.value.trim();
   if (!code) {
     setFeedback("Enter the host code to reset the room.", true);
@@ -456,10 +492,19 @@ function setFeedback(message, isEmpty = false) {
 
 function render() {
   renderHeader();
+  renderHostControls();
   renderSteps();
   renderCheckpoints();
   renderPulse();
   renderQuestion();
+}
+
+function renderHostControls() {
+  els.hostActions.hidden = !state.hostUnlocked;
+  els.start.disabled = !state.hostUnlocked;
+  els.reset.disabled = !state.hostUnlocked;
+  els.unlock.disabled = state.hostUnlocked;
+  els.unlock.textContent = state.hostUnlocked ? "Unlocked" : "Unlock";
 }
 
 function renderHeader() {
@@ -488,7 +533,7 @@ function renderHeader() {
     els.roundLabel.textContent = "Room complete";
   } else {
     els.roomStatus.textContent = "Lobby waiting";
-    els.roomSubtitle.textContent = "Host unlocks with OAI123456, then everyone gets 5 minutes.";
+    els.roomSubtitle.textContent = "Host unlocks with the host code, then everyone gets 5 minutes.";
     els.roundLabel.textContent = "Room waiting";
   }
 
@@ -697,7 +742,14 @@ els.playerName.addEventListener("input", () => {
   saveLocal(PLAYER_KEY, state.playerName);
   renderHeader();
 });
+els.hostCode.addEventListener("input", () => {
+  if (!state.hostUnlocked) return;
+  state.hostUnlocked = false;
+  renderHostControls();
+  setFeedback("Host controls locked because the code changed.", true);
+});
 els.join.addEventListener("click", joinRoom);
+els.unlock.addEventListener("click", unlockHost);
 els.start.addEventListener("click", startRoom);
 els.reset.addEventListener("click", resetRoom);
 els.refresh.addEventListener("click", pollRoom);
@@ -705,7 +757,7 @@ els.refresh.addEventListener("click", pollRoom);
 document.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     if (document.activeElement === els.hostCode) {
-      startRoom();
+      unlockHost();
       return;
     }
     if (!state.joined) {
