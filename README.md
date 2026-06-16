@@ -14,8 +14,6 @@ This version is designed as a Vercel-hosted live-room experience:
 - when all joined players finish or time ends, everyone can see the final participant leaderboard
 - the host screen still shows aggregate response counts during play
 
-Use **Demo Mode** from the host panel when opening `index.html` locally. It simulates players, responses, and the 5-minute timer so you can preview the flow before deploying.
-
 ## Vercel Redis / Upstash note
 
 The app includes `api/room.js` for live phone sync. For reliable state across Vercel serverless instances, connect an Upstash Redis database through Vercel Marketplace or add REST credentials manually.

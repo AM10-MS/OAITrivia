@@ -187,29 +187,6 @@ const questions = [
   }
 ];
 
-const demoNames = [
-  "Aisha Tan",
-  "Ben Lim",
-  "Cheryl Goh",
-  "Dinesh Rao",
-  "Farah Noor",
-  "Grace Ong",
-  "Harith Lee",
-  "Irene Chua",
-  "Jasper Koh",
-  "Kavita Menon",
-  "Leon Tan",
-  "Mei Wong",
-  "Nadia Rahim",
-  "Owen Teo",
-  "Priya Nair",
-  "Rafiq Aziz",
-  "Samantha Ng",
-  "Terence Low",
-  "Uma Devi",
-  "Victor Chan"
-];
-
 const state = {
   room: null,
   playerName: "Player",
@@ -219,8 +196,6 @@ const state = {
   localAnswers: {},
   answerStorageKey: "",
   apiOnline: false,
-  demo: false,
-  demoStartedAt: 0,
   submitting: false
 };
 
@@ -231,7 +206,6 @@ const els = {
   join: document.querySelector("#join-button"),
   start: document.querySelector("#start-button"),
   reset: document.querySelector("#reset-button"),
-  demo: document.querySelector("#demo-button"),
   refresh: document.querySelector("#refresh-button"),
   category: document.querySelector("#category"),
   question: document.querySelector("#question"),
@@ -330,12 +304,6 @@ async function apiRequest(method = "GET", payload = null) {
 }
 
 async function pollRoom() {
-  if (state.demo) {
-    updateDemoRoom();
-    render();
-    return;
-  }
-
   try {
     const data = await apiRequest("GET");
     state.apiOnline = true;
@@ -368,14 +336,6 @@ async function joinRoom() {
 
   state.playerName = name;
   saveLocal(PLAYER_KEY, name);
-
-  if (state.demo) {
-    state.joined = true;
-    state.participantId = "demo-participant";
-    setFeedback(`${name} joined the demo room.`, true);
-    render();
-    return;
-  }
 
   setFeedback("Joining room...", true);
 
@@ -418,12 +378,6 @@ async function startRoom() {
 }
 
 async function resetRoom() {
-  if (state.demo) {
-    stopDemo();
-    setFeedback("Demo stopped. Refresh or deploy to Vercel for the real live room.", true);
-    return;
-  }
-
   const code = els.hostCode.value.trim();
   if (!code) {
     setFeedback("Enter the host code to reset the room.", true);
@@ -454,15 +408,6 @@ async function submitAnswer(answerIndex) {
   saveAnswers();
   render();
 
-  if (state.demo) {
-    updateDemoRoom();
-    state.submitting = false;
-    state.questionIndex = firstUnansweredQuestion();
-    setFeedback("Demo answer saved on this device. Keep going.", true);
-    render();
-    return;
-  }
-
   try {
     const data = await apiRequest("POST", {
       action: "answer",
@@ -482,107 +427,6 @@ async function submitAnswer(answerIndex) {
     state.questionIndex = firstUnansweredQuestion();
     render();
   }
-}
-
-function startDemo() {
-  if (state.demo && state.room?.status === "active") {
-    state.demoStartedAt = Date.now() - 5 * 60 * 1000;
-    updateDemoRoom();
-    setFeedback("Demo results shown. This is what the final leaderboard looks like.", true);
-    render();
-    return;
-  }
-
-  const name = getName();
-  state.demo = true;
-  state.apiOnline = true;
-  state.demoStartedAt = Date.now() - 24000;
-  state.playerName = name === "Player" ? "Host Preview" : name;
-  state.participantId = "demo-participant";
-  state.joined = true;
-  state.localAnswers = {};
-  state.answerStorageKey = "demo";
-  state.questionIndex = 0;
-  els.playerName.value = state.playerName === "Host Preview" ? "" : state.playerName;
-  updateDemoRoom();
-  setFeedback("Demo mode is running with simulated phone responses. Try answering from this screen.", true);
-  render();
-}
-
-function stopDemo() {
-  state.demo = false;
-  state.demoStartedAt = 0;
-  state.room = null;
-  state.localAnswers = {};
-  state.answerStorageKey = "";
-  state.questionIndex = 0;
-  state.participantId = loadLocal(PARTICIPANT_KEY) || "";
-  state.joined = Boolean(state.participantId && els.playerName.value.trim());
-  state.apiOnline = false;
-  render();
-}
-
-function updateDemoRoom() {
-  const durationMs = 5 * 60 * 1000;
-  const startedAt = state.demoStartedAt || Date.now();
-  const elapsed = Math.min(durationMs, Math.max(0, Date.now() - startedAt));
-  const participantCount = Math.min(42, 18 + Math.floor(elapsed / 7500));
-  const status = elapsed >= durationMs ? "ended" : "active";
-  const answersByQuestion = questions.map((question, questionIndex) => {
-    const wave = Math.max(0, Math.floor((elapsed - questionIndex * 6200) / 1500));
-    const total = Math.min(participantCount, wave);
-    const bias = 0.34 + (questionIndex % 5) * 0.055;
-    const correct = Math.min(total, Math.floor(total * bias));
-    const remainder = Math.max(0, total - correct);
-    const wrongIndexes = [0, 1, 2, 3].filter((answerIndex) => answerIndex !== question.correct);
-    const choices = { [question.correct]: correct };
-    choices[wrongIndexes[0]] = Math.ceil(remainder * 0.38);
-    choices[wrongIndexes[1]] = Math.floor(remainder * 0.34);
-    choices[wrongIndexes[2]] = Math.max(0, remainder - choices[wrongIndexes[0]] - choices[wrongIndexes[1]]);
-    return {
-      questionIndex,
-      total,
-      correct,
-      choices
-    };
-  });
-  const responseCount = answersByQuestion.reduce((sum, row) => sum + row.total, 0);
-  const completedCount = Math.min(participantCount, Math.floor((elapsed / durationMs) * participantCount));
-
-  state.room = {
-    status,
-    startedAt,
-    durationMs,
-    participantCount,
-    responseCount,
-    completedCount,
-    answersByQuestion,
-    leaderboard: status === "ended" ? buildDemoLeaderboard(participantCount, durationMs) : [],
-    storage: "demo"
-  };
-}
-
-function buildDemoLeaderboard(participantCount, durationMs) {
-  const rows = Array.from({ length: participantCount }, (_, index) => {
-    const answered = index > participantCount - 4 ? 14 : questions.length;
-    const correct = Math.max(5, questions.length - Math.floor(index / 3) - (index % 4 === 0 ? 1 : 0));
-    const finishedInMs = answered >= questions.length ? Math.min(durationMs, 154000 + index * 6200) : null;
-    return {
-      name: index === 0 ? state.playerName : demoNames[index % demoNames.length],
-      correct,
-      answered,
-      finishedInMs,
-      lastAnswerInMs: finishedInMs || Math.min(durationMs, 260000 + index * 1500)
-    };
-  });
-
-  rows.sort((left, right) => {
-    const leftFinished = left.finishedInMs ?? Number.MAX_SAFE_INTEGER;
-    const rightFinished = right.finishedInMs ?? Number.MAX_SAFE_INTEGER;
-    return right.correct - left.correct || right.answered - left.answered || leftFinished - rightFinished;
-  });
-
-  return rows.map((row, index) => ({ ...row, rank: index + 1 }));
 }
 
 function isActive() {
@@ -629,17 +473,8 @@ function renderHeader() {
   els.progressBar.style.width = `${Math.min(100, progress)}%`;
   els.participantCount.textContent = String(room?.participantCount || 0);
   els.responseCount.textContent = String(room?.responseCount || 0);
-  els.demo.textContent = state.demo && room?.status === "active" ? "Show Results" : state.demo ? "Restart Demo" : "Demo Mode";
 
-  if (state.demo && room?.status === "active") {
-    els.roomStatus.textContent = "Demo running";
-    els.roomSubtitle.textContent = "Simulated players are answering like a live phone room.";
-    els.roundLabel.textContent = `Preview time left ${formatTime(timeLeft)}`;
-  } else if (state.demo && room?.status === "ended") {
-    els.roomStatus.textContent = "Demo complete";
-    els.roomSubtitle.textContent = "The simulated 5-minute answering window is closed.";
-    els.roundLabel.textContent = "Preview complete";
-  } else if (!state.apiOnline) {
+  if (!state.apiOnline) {
     els.roomStatus.textContent = "Sync offline";
     els.roomSubtitle.textContent = "This file preview cannot sync phones. Deploy to Vercel for live play.";
     els.roundLabel.textContent = "Waiting for API";
@@ -865,7 +700,6 @@ els.playerName.addEventListener("input", () => {
 els.join.addEventListener("click", joinRoom);
 els.start.addEventListener("click", startRoom);
 els.reset.addEventListener("click", resetRoom);
-els.demo.addEventListener("click", startDemo);
 els.refresh.addEventListener("click", pollRoom);
 
 document.addEventListener("keydown", (event) => {

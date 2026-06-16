@@ -334,10 +334,8 @@ h2 {
   border-radius: 8px;
 }
 
-.host-actions {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 10px;
+.reset-button {
+  width: 100%;
 }
 
 .room-steps {
@@ -687,7 +685,6 @@ h2 {
   .system-grid,
   .room-steps,
   .join-row,
-  .host-actions,
   .actions {
     grid-template-columns: 1fr;
   }
